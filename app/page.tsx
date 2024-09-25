@@ -161,7 +161,7 @@ export default function Home() {
           <div className="w-[35%] hidden lg:flex justify-end">
             <div className="w-64 h-64 bg-[#E67D1F] relative me-12"></div>
             <img
-              src="/img/about-us_img.png"
+              src="/img/tubular-photo2.jpg"
               alt=""
               className="w-64 h-64 object-cover absolute mt-12"
             />
