@@ -38,8 +38,8 @@ export default function Fabrication() {
             </h2>
             <div className="text-gray-700 mt-4">
               Our team expertise in welding and fabrication ensures precision
-              and reliability, crafting custom solutions to meet clients{"’"}{" "}
-              needs, including sectional replacements.{" "}
+              and reliability, crafting custom solutions to meet clients&lsquo;
+              needs, including sectional replacements.
             </div>
           </div>
           <div className="w-[35%] hidden lg:flex justify-end">
