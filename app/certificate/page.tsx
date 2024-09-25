@@ -63,7 +63,7 @@ export default function Certificate() {
             </p>
 
             <form action="">
-              <div className="flex flex-col gap-6 text-gray-700 w-3/4 mt-2">
+              <div className="flex flex-col gap-6 text-gray-700 lg:w-3/4 w-full mt-2">
                 <FloatingLabel
                   variant="standard"
                   label="Candidate’s Name as Shown on Certificate*"

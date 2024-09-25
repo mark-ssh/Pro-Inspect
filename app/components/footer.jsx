@@ -5,8 +5,8 @@ export default function CustomFooter() {
   return (
     <>
       <section className="w-full bg-[#280612] flex justify-center">
-        <div className="lg:py-16 py-8 lg:w-[1080px] w-full px-6 lg:px-0 flex gap-5 justify-between">
-          <div className="flex flex-col lg:gap-7 gap-4 w-1/3 lg:w-[28%] text-[#E5E0E0]">
+        <div className="lg:py-16 py-8 lg:w-[1080px] w-full px-6 lg:px-0 flex flex-col lg:flex-row gap-5 justify-between">
+          <div className="flex flex-col lg:gap-7 gap-4 w-full lg:w-[28%] text-[#E5E0E0]">
             <div className="">
               <p className="lg:text-lg uppercase text-[#E5E0E0] font-semibold">
                 Contact Us
@@ -52,7 +52,7 @@ export default function CustomFooter() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col lg:gap-7 gap-4 w-1/3 lg:w-[28%] lg:ps-12 ps-5">
+          <div className="flex flex-col lg:gap-7 gap-4 w-full mt-8 lg:mt-0 lg:w-[28%] lg:ps-12 ps-5">
             <p className="lg:text-lg uppercase text-[#E5E0E0] font-semibold">
               Quick Links
             </p>
@@ -87,7 +87,7 @@ export default function CustomFooter() {
               Contact Us
             </Link>
           </div>
-          <div className="flex flex-col lg:gap-7 gap-4 w-1/3 lg:w-[28%] text-[#E5E0E0]">
+          <div className="flex flex-col lg:gap-7 gap-4 w-full mt-8 lg:mt-0 lg:w-[28%] text-[#E5E0E0]">
             <p className="text-lg uppercase text-[#E5E0E0] font-semibold">
               Services
             </p>
