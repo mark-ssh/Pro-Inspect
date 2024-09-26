@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function ContactBar() {
@@ -18,11 +19,12 @@ export default function ContactBar() {
           </Link>
           <div className="flex items-center gap-10">
             <div className="flex gap-3">
-              <img
+              <Image src="/img/phone2.png" width={48} height={48} alt="Phone" />
+              {/* <img
                 src="/img/phone2.jpg"
                 alt="phone"
                 className="w-12 object-contain"
-              />
+              /> */}
               <div className="flex flex-col">
                 <p className="font-semibold text-sm text-[#C00202]">
                   Call us from 8:00 am - 5:00pm
