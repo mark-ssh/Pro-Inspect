@@ -19,7 +19,7 @@ export default function ContactBar() {
           <div className="flex items-center gap-10">
             <div className="flex gap-3">
               <img
-                src="/img/phone2.png"
+                src="/img/phone2.jpg"
                 alt="phone"
                 className="w-12 object-contain"
               />
@@ -32,7 +32,7 @@ export default function ContactBar() {
             </div>
             <div className="flex gap-3">
               <img
-                src="/img/time.png"
+                src="/img/time.jpg"
                 alt="phone"
                 className="w-12 object-contain"
               />
@@ -45,7 +45,7 @@ export default function ContactBar() {
             </div>
             <div className="flex gap-3">
               <img
-                src="/img/email2.png"
+                src="/img/email2.jpg"
                 alt="phone"
                 className="w-12 object-contain"
               />
