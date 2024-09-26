@@ -57,7 +57,7 @@ export default function Home() {
           </div>
           <div className="lg:w-[370px] lg:h-[240px] w-full relative group overflow-hidden">
             <img
-              src="/img/training-photo3.jpg"
+              src="/img/training3.png"
               alt=""
               className="w-full h-full object-cover"
             />
