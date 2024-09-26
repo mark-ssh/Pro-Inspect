@@ -18,7 +18,7 @@ export default function Home() {
         <div className="lg:w-[1090px] w-full flex-col lg:flex-row flex px-6 lg:px-0 lg:gap-6 gap-3">
           <div className="lg:w-[370px] lg:h-[240px] w-full relative group overflow-hidden">
             <img
-              src="/img/training-photo2.jpg"
+              src="/img/training4.png"
               alt=""
               className="w-full h-full object-cover"
             />
