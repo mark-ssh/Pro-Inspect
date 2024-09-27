@@ -109,7 +109,7 @@ export default function CustomFooter() {
               <div className="text-[#E5E0E0] text-xs lg:text-[15px] ">
                 Socials:
               </div>
-              <div className="">
+              <div className="flex gap-3 items-center">
                 <Link href="" target="blank">
                   <img
                     src="/img/icons8-linkedin-480.png"
