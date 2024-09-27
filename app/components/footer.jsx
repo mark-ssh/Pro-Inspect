@@ -105,9 +105,11 @@ export default function CustomFooter() {
             >
               Training
             </Link>
-            <div className="mb-0 text-[#E5E0E0] flex text-xs lg:text-[15px] mt-32">
-              LinkedIn:
-              <span>
+            <div className="mb-0 flex gap-1 items-center mt-32">
+              <div className="text-[#E5E0E0] text-xs lg:text-[15px] ">
+                Socials:
+              </div>
+              <div className="">
                 <Link href="" target="blank">
                   <img
                     src="/img/icons8-linkedin-480.png"
@@ -115,7 +117,35 @@ export default function CustomFooter() {
                     className="w-8 h-8 -mt-2 ms-3"
                   />
                 </Link>
-              </span>
+                <Link href="" target="blank">
+                  <img
+                    src="/img/icons8-facebook-96.png"
+                    alt=""
+                    className="w-8 h-8 -mt-2 ms-3"
+                  />
+                </Link>
+                <Link href="" target="blank">
+                  <img
+                    src="/img/icons8-google-plus-96.png"
+                    alt=""
+                    className="w-8 h-8 -mt-2 ms-3"
+                  />
+                </Link>
+                <Link href="" target="blank">
+                  <img
+                    src="/img/icons8-twitter-100.png"
+                    alt=""
+                    className="w-8 h-8 -mt-2 ms-3"
+                  />
+                </Link>
+                <Link href="" target="blank">
+                  <img
+                    src="/img/icons8-whatsapp-144.png"
+                    alt=""
+                    className="w-8 h-8 -mt-2 ms-3"
+                  />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
