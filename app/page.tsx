@@ -96,6 +96,43 @@ export default function Home() {
           </div>
           <div className="lg:w-[370px] lg:h-[240px] w-full relative group overflow-hidden">
             <img
+              src="/img/ndt.png"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+            <div className="w-full absolute opacity-0 lg:opacity-100 group-hover:translate-y-2  group-hover:opacity-0 ease-in-out transition-all bottom-0 bg-[#000000ad]  py-4 px-8 flex items-center gap-6">
+              <img
+                src="/img/service.png"
+                alt="training"
+                className="w-12 object-contain"
+              />
+              <p className="text-white font-semibold text-[1rem]">
+                NDT/Inspection Services
+              </p>
+            </div>
+            <div className="lg:hidden  group-hover:flex gap-6 group-hover:animate-slide-down  bg-[#000000ad] h-full w-full py-6 px-8 absolute top-0 border-t-2 border-solid border-orange-500 items-start">
+              <img
+                src="/img/service.png"
+                alt="training"
+                className="w-12 object-contain"
+              />
+              <div className="flex flex-col gap-3">
+                <p className="text-white font-semibold text-[1rem]">
+                  NDT/Inspection Services
+                </p>
+                <p className="text-gray-300 text-sm hidden lg:flex">
+                  Pro-Inspect Limited offers a comprehensive range of
+                  Non-Destructive Testing services including: Visual Inspection
+                  etc
+                </p>
+                <Link href="/services/ndt" className="text-[#E67D1F] text-sm">
+                  Read more...{" "}
+                </Link>
+              </div>
+            </div>
+          </div>
+          {/* <div className="lg:w-[370px] lg:h-[240px] w-full relative group overflow-hidden">
+            <img
               src="/img/verified.png"
               alt="img"
               className="w-full h-full object-cover"
@@ -129,7 +166,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="mt-10 w-fit">
           <span className="inline-block bg-[#FE5A0E] rounded-md w-[28px] h-[5px] p-0">
@@ -185,84 +222,64 @@ export default function Home() {
         <div className="flex overflow-hidden whitespace-nowrap gap-2 relative">
           <div className="lg:my-12 flex flex-shrink-0 gap-4 items-center pb-3 animate-clients-slide">
             <img
-              src="/img/Agip_logo_PNG.png"
+              src="/img/ICSCL.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px]"
             />
             <img
-              src="/img/Nigerian_National_Petroleum_Company_logo.png"
+              src="/img/NetcoDietsmann.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-6"
             />
             <img
-              src="/img/ng-notore-logo.png"
+              src="/img/ICSCL.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-2"
             />
             <img
-              src="/img/total_logo.png"
+              src="/img/NetcoDietsmann.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px]"
             />
             <img
-              src="/img/belema-oil_logo.png"
+              src="/img/ICSCL.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-8"
             />
             <img
-              src="/img/Saipem_logo.png"
-              alt=""
-              className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-6"
-            />
-            <img
-              src="/img/lng_gas-logo.png"
-              alt=""
-              className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-6"
-            />
-            <img
-              src="/img/yinson.png"
+              src="/img/NetcoDietsmann.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-6"
             />
           </div>
           <div className="lg:my-12 my-6 flex gap-4 items-center flex-shrink-0 pb-3 animate-clients-slide">
             <img
-              src="/img/Agip_logo_PNG.png"
+              src="/img/ICSCL.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px]"
             />
             <img
-              src="/img/Nigerian_National_Petroleum_Company_logo.png"
+              src="/img/NetcoDietsmann.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-6"
             />
             <img
-              src="/img/ng-notore-logo.png"
+              src="/img/ICSCL.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-2"
             />
             <img
-              src="/img/total_logo.png"
+              src="/img/NetcoDietsmann.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px]"
             />
             <img
-              src="/img/belema-oil_logo.png"
+              src="/img/ICSCL.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-8"
             />
             <img
-              src="/img/Saipem_logo.png"
-              alt=""
-              className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-6"
-            />
-            <img
-              src="/img/lng_gas-logo.png"
-              alt=""
-              className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-6"
-            />
-            <img
-              src="/img/yinson.png"
+              src="/img/NetcoDietsmann.jpg"
               alt=""
               className="lg:w-[12rem] w-24 h-24 lg:h-[12rem] object-contain border-s-gray-100 border-solid border-[2px] p-6"
             />
