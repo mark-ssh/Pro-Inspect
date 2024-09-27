@@ -77,6 +77,34 @@ export default function Training() {
               <li>Radiographic Film Interpretation (RFI)</li>
               <li>Ultrasonic Testing (UT)</li>
             </ul>
+            <div className="mt-8 border-gray-200 border-t pt-3 ">
+              <p className="text-sm lg:text-sm font-medium text-blue-700">
+                Training Schedule:
+              </p>
+              <div className="flex gap-2 items-center mb-4 mt-3">
+                <img
+                  src="/img/calendar.png"
+                  alt="calendar"
+                  className="w-7 h-7 object-contain"
+                />
+                <p className="text-sm text-gray-700">
+                  Oct 26th-2024 to Nov 8th-2024
+                </p>
+              </div>
+              <div className="flex w-3/4 justify-between">
+                <div className="flex gap-2 items-center">
+                  <img
+                    src="/img/delivery-time.png"
+                    alt="calendar"
+                    className="w-7 h-7 object-contain"
+                  />
+                  <p className="text-sm text-gray-700">Virtual</p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="text-sm text-gray-700">N234,000.00</p>
+                </div>
+              </div>
+            </div>
             <button
               className="text-sm w-fit py-3 px-5 bg-[#EB3223] mt-6 hover:bg-[#bb1f11]"
               onClick={toggleForm}
@@ -102,6 +130,34 @@ export default function Training() {
               Our instructors are experienced with in-depth knowledge of API
               standards and industry best practices.
             </p>
+            <div className="mt-8 border-gray-200 border-t pt-3 ">
+              <p className="text-sm lg:text-sm font-medium text-blue-700">
+                Training Schedule:
+              </p>
+              <div className="flex gap-2 items-center mb-4 mt-2">
+                <img
+                  src="/img/calendar.png"
+                  alt="calendar"
+                  className="w-7 h-7 object-contain"
+                />
+                <p className="text-sm text-gray-700">
+                  Oct 26th-2024 to Nov 8th-2024
+                </p>
+              </div>
+              <div className="flex w-3/4 justify-between">
+                <div className="flex gap-2 items-center">
+                  <img
+                    src="/img/delivery-time.png"
+                    alt="calendar"
+                    className="w-7 h-7 object-contain"
+                  />
+                  <p className="text-sm text-gray-700">Virtual</p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="text-sm text-gray-700">N234,000.00</p>
+                </div>
+              </div>
+            </div>
             <button
               onClick={toggleForm}
               className="text-sm w-fit py-3 px-5 bg-[#EB3223] mt-6 hover:bg-[#bb1f11]"
@@ -117,6 +173,34 @@ export default function Training() {
               design, layout, and engineering and helping students achieve
               software proficiency in industry standard tools such as AutoCAD
               P&ID, AutoCAD Plant 3D and AVEVA E3D.
+            </div>
+            <div className="mt-8 border-gray-200 border-t pt-3 ">
+              <p className="text-sm lg:text-sm font-medium text-blue-700">
+                Training Schedule:
+              </p>
+              <div className="flex gap-2 items-center mb-4 mt-2">
+                <img
+                  src="/img/calendar.png"
+                  alt="calendar"
+                  className="w-7 h-7 object-contain"
+                />
+                <p className="text-sm text-gray-700">
+                  Oct 26th-2024 to Nov 8th-2024
+                </p>
+              </div>
+              <div className="flex w-3/4 justify-between">
+                <div className="flex gap-2 items-center">
+                  <img
+                    src="/img/delivery-time.png"
+                    alt="calendar"
+                    className="w-7 h-7 object-contain"
+                  />
+                  <p className="text-sm text-gray-700">Virtual</p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="text-sm text-gray-700">N234,000.00</p>
+                </div>
+              </div>
             </div>
             <button
               onClick={toggleForm}
@@ -141,12 +225,12 @@ export default function Training() {
 
       {/* Enquiry form */}
       <div
-        className={`w-full h-full fixed top-0 z-40 ${
+        className={`w-full h-full fixed top-0 z-[100] ${
           isViewed ? "flex" : "hidden"
         } `}
       >
         <div className="absolute w-full h-full bg-[#000000b5] flex justify-center">
-          <div className="lg:w-[700px] h-fit bg-white mt-24 mx-6 lg:mx-0">
+          <div className="lg:w-[700px] h-fit bg-white mt-12 mx-6 lg:mx-0">
             <div className="lg:px-10 px-6 py-6 bg-gray-200 text-gray-800 lg:text-lg font-medium">
               Enquiry form
             </div>
@@ -165,6 +249,12 @@ export default function Training() {
                 <FloatingLabel
                   variant="standard"
                   label="Email*"
+                  color="success"
+                  className="bg-transparent"
+                />
+                <FloatingLabel
+                  variant="standard"
+                  label="Phone Number*"
                   color="success"
                   className="bg-transparent"
                 />
