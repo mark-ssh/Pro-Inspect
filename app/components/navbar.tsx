@@ -32,7 +32,7 @@ export default function CustomNavbar({ style = false }) {
   const bgEffect = scrolled ? "fixed" : style ? "relative" : "relative";
   return (
     <Navbar
-      className={` inset-x-0 top-0 z-50 lg:flex lg:justify-center ${bgEffect}  transition-all p-0 lg:flex-col items-center  h-fit`}
+      className={`w-full inset-x-0 top-0 z-50 lg:flex lg:justify-center ${bgEffect}  transition-all p-0 lg:flex-col items-center  h-fit`}
       id="navBar"
     >
       <nav
@@ -42,19 +42,19 @@ export default function CustomNavbar({ style = false }) {
         <div className="hidden lg:flex lg:gap-x-24 lg:px-6 lg:py-1.5">
           <Link
             href="/"
-            className={` leading-6  relative hover:text-orange-500`}
+            className={` leading-6 text-white relative hover:text-orange-500`}
           >
             Home
           </Link>
           <Link
-            className={` leading-6 relative cursor-pointer group hover:text-orange-500`}
+            className={` leading-6 text-white relative cursor-pointer group hover:text-orange-500`}
             href="/about-us"
           >
             About Us
           </Link>
 
           <div
-            className={` leading-6  relative cursor-pointer group hover:text-orange-500`}
+            className={` leading-6 text-white relative cursor-pointer group hover:text-orange-500`}
           >
             Services
             <span>
@@ -95,13 +95,19 @@ export default function CustomNavbar({ style = false }) {
           </div>
           <Link
             href="/careers"
-            className={` leading-6  relative hover:text-orange-500`}
+            className={` leading-6  text-white relative hover:text-orange-500`}
           >
             Careers
           </Link>
           <Link
+            href="/certificate"
+            className={` leading-6 text-white relative hover:text-orange-500`}
+          >
+            Verify Certificate
+          </Link>
+          <Link
             href="/contact-us"
-            className={` leading-6  relative hover:text-orange-500`}
+            className={` leading-6 text-white relative hover:text-orange-500`}
           >
             Contact Us
           </Link>
@@ -113,7 +119,7 @@ export default function CustomNavbar({ style = false }) {
         >
           <span className="sr-only">Your Company</span>
           <img
-            className="h-10 w-fit -ms-4 lg:-ms-0 object-contain"
+            className="h-16 w-fit -ms-4 lg:-ms-0 object-contain"
             src="/img/pro inpect logo.jpg"
             width={40}
             height={40}

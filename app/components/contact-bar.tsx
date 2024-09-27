@@ -10,7 +10,7 @@ export default function ContactBar() {
           <Link href="/" className="-m-1.5 p-1.5 flex items-start gap-4">
             <span className="sr-only">Your Company</span>
             <img
-              className="lg:h-24 h-10 w-fit -ms-4 lg:-ms-0"
+              className="lg:h-24 h-16 w-fit -ms-4 lg:-ms-0"
               src="/img/pro inpect logo.jpg"
               width={40}
               height={40}
