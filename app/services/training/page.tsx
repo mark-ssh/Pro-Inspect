@@ -100,9 +100,6 @@ export default function Training() {
                   />
                   <p className="text-sm text-gray-700">Virtual</p>
                 </div>
-                <div className="flex gap-2">
-                  <p className="text-sm text-gray-700">N234,000.00</p>
-                </div>
               </div>
             </div>
             <button
@@ -153,9 +150,6 @@ export default function Training() {
                   />
                   <p className="text-sm text-gray-700">Virtual</p>
                 </div>
-                <div className="flex gap-2">
-                  <p className="text-sm text-gray-700">N234,000.00</p>
-                </div>
               </div>
             </div>
             <button
@@ -196,9 +190,6 @@ export default function Training() {
                     className="w-7 h-7 object-contain"
                   />
                   <p className="text-sm text-gray-700">Virtual</p>
-                </div>
-                <div className="flex gap-2">
-                  <p className="text-sm text-gray-700">N234,000.00</p>
                 </div>
               </div>
             </div>
