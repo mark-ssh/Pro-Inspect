@@ -32,11 +32,11 @@ export default function CustomNavbar({ style = false }) {
   const bgEffect = scrolled ? "fixed" : style ? "relative" : "relative";
   return (
     <Navbar
-      className={`w-full group  inset-x-0 top-0 z-50 lg:flex lg:justify-center ${bgEffect}  transition-all p-0 lg:flex-col items-center  h-fit`}
+      className={`w-full  inset-x-0 top-0 z-50 lg:flex lg:justify-center ${bgEffect}  transition-all p-0 lg:flex-col items-center  h-fit`}
       id="navBar"
     >
       <nav
-        className="flex items-center group-[]:w-full lg:justify-center justify-between px-10 lg:px-0 bg-white lg:bg-[#280612] py-5 lg:w-full w-full"
+        className="flex items-center lg:justify-center justify-between px-10 lg:px-0 bg-white lg:bg-[#280612] py-5 lg:w-full w-full"
         aria-label="Global"
       >
         <div className="hidden lg:flex lg:gap-x-24 lg:px-6 lg:py-1.5">
