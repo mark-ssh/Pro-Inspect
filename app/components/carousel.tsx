@@ -44,7 +44,7 @@ export function HomeCarousel() {
         </div>
         <div className="flex overflow-hidden h-full w-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
           <img
-            src="/img/tubular-photo1.jpg"
+            src="/img/tubular-photo1.png"
             className="block absolute  w-full h-full -translate-x-1/2 -translate-y-1/2 animate-slow-scale object-cover"
             alt="..."
           />

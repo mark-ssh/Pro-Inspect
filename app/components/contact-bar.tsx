@@ -19,12 +19,9 @@ export default function ContactBar() {
           </Link>
           <div className="flex items-center gap-10">
             <div className="flex gap-3">
-              <Image src="/img/phone2.png" width={48} height={48} alt="Phone" />
-              {/* <img
-                src="/img/phone2.jpg"
-                alt="phone"
-                className="w-12 object-contain"
-              /> */}
+              <span className="text-5xl text-gray-700">
+                <i className="bx bxs-phone-call"></i>
+              </span>
               <div className="flex flex-col">
                 <p className="font-semibold text-sm text-[#C00202]">
                   Call us from 8:00 am - 5:00pm
@@ -33,11 +30,9 @@ export default function ContactBar() {
               </div>
             </div>
             <div className="flex gap-3">
-              <img
-                src="/img/time.jpg"
-                alt="phone"
-                className="w-12 object-contain"
-              />
+              <span className="text-5xl text-gray-700">
+                <i className="bx bxs-time-five"></i>
+              </span>
               <div className="flex flex-col">
                 <p className="font-semibold text-sm text-[#C00202]">
                   Open Monday to Friday
@@ -46,11 +41,9 @@ export default function ContactBar() {
               </div>
             </div>
             <div className="flex gap-3">
-              <img
-                src="/img/email2.jpg"
-                alt="phone"
-                className="w-12 object-contain"
-              />
+              <span className="text-5xl text-gray-700">
+                <i className="bx bxs-envelope"></i>
+              </span>
               <div className="flex flex-col">
                 <p className="font-semibold text-sm text-[#C00202]">Email Us</p>
                 <a

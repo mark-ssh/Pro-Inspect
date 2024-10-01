@@ -23,21 +23,17 @@ export default function Home() {
               className="w-full h-full object-cover"
             />
             <div className="w-full absolute opacity-0 lg:opacity-100 group-hover:translate-y-2  group-hover:opacity-0 ease-in-out transition-all bottom-0 bg-[#000000ad]  py-4 px-8 flex items-center gap-6">
-              <img
-                src="/img/training.png"
-                alt="training"
-                className="w-12 object-contain"
-              />
+              <span className="text-5xl text-[#E67D1F]">
+                <i className="bx bx-chalkboard"></i>
+              </span>
               <p className="text-white font-semibold text-[1rem]">
                 Non-Destructive Testing (NDT) Training
               </p>
             </div>
             <div className="lg:hidden  group-hover:flex gap-6 group-hover:animate-slide-down  bg-[#000000ad] h-full w-full py-6 px-8 absolute top-0 border-t-2 border-solid border-orange-500 items-start">
-              <img
-                src="/img/training.png"
-                alt="training"
-                className="w-12 object-contain"
-              />
+              <span className="text-5xl text-[#E67D1F]">
+                <i className="bx bx-chalkboard"></i>
+              </span>
               <div className="flex flex-col gap-3">
                 <p className="text-white font-semibold text-[1rem]">
                   Non-Destructive Testing (NDT) Training
@@ -62,21 +58,17 @@ export default function Home() {
               className="w-full h-full object-cover"
             />
             <div className="w-full absolute opacity-0 lg:opacity-100 group-hover:translate-y-2  group-hover:opacity-0 ease-in-out transition-all bottom-0 bg-[#000000ad]  py-4 px-8 flex items-center gap-6">
-              <img
-                src="/img/training.png"
-                alt="training"
-                className="w-12 object-contain"
-              />
+              <span className="text-5xl text-[#E67D1F]">
+                <i className="bx bx-chalkboard"></i>
+              </span>
               <p className="text-white font-semibold text-[1rem]">
                 American Petroleum Institute (API) Training
               </p>
             </div>
             <div className="lg:hidden  group-hover:flex gap-6 group-hover:animate-slide-down  bg-[#000000ad] h-full w-full py-6 px-8 absolute top-0 border-t-2 border-solid border-orange-500 items-start">
-              <img
-                src="/img/training.png"
-                alt="training"
-                className="w-12 object-contain"
-              />
+              <span className="text-5xl text-[#E67D1F]">
+                <i className="bx bx-chalkboard"></i>
+              </span>
               <div className="flex flex-col gap-3">
                 <p className="text-white font-semibold text-[1rem]">
                   American Petroleum Institute (API) Training
@@ -96,26 +88,22 @@ export default function Home() {
           </div>
           <div className="lg:w-[370px] lg:h-[240px] w-full relative group overflow-hidden">
             <img
-              src="/img/inspection-photo2.jpg"
+              src="/img/inspection-photo20.png"
               alt=""
               className="w-full h-full object-cover"
             />
             <div className="w-full absolute opacity-0 lg:opacity-100 group-hover:translate-y-2  group-hover:opacity-0 ease-in-out transition-all bottom-0 bg-[#000000ad]  py-4 px-8 flex items-center gap-6">
-              <img
-                src="/img/service.png"
-                alt="training"
-                className="w-12 object-contain"
-              />
+              <span className="text-5xl text-[#E67D1F]">
+                <i className="bx bx-grid-alt"></i>
+              </span>
               <p className="text-white font-semibold text-[1rem]">
                 NDT/Inspection Services
               </p>
             </div>
             <div className="lg:hidden  group-hover:flex gap-6 group-hover:animate-slide-down  bg-[#000000ad] h-full w-full py-6 px-8 absolute top-0 border-t-2 border-solid border-orange-500 items-start">
-              <img
-                src="/img/service.png"
-                alt="training"
-                className="w-12 object-contain"
-              />
+              <span className="text-5xl text-[#E67D1F]">
+                <i className="bx bx-grid-alt"></i>
+              </span>
               <div className="flex flex-col gap-3">
                 <p className="text-white font-semibold text-[1rem]">
                   NDT/Inspection Services
