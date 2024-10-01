@@ -8,7 +8,7 @@ export function HomeCarousel() {
       <Carousel>
         <div className="flex overflow-hidden w-full h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
           <img
-            src="/img/oilngas-img.png"
+            src="/img/TEE-2.jpg"
             className="block absolute w-full h-full object-cover animate-slow-scale"
             alt="..."
           />
@@ -44,7 +44,7 @@ export function HomeCarousel() {
         </div>
         <div className="flex overflow-hidden h-full w-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
           <img
-            src="/img/slider_image.png"
+            src="/img/tubular-photo1.jpg"
             className="block absolute  w-full h-full -translate-x-1/2 -translate-y-1/2 animate-slow-scale object-cover"
             alt="..."
           />
