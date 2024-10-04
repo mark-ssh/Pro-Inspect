@@ -92,20 +92,18 @@ export default function CustomFooter() {
               Services
             </p>
             <Link
-              href=""
+              href="/certificate"
               className="mb-0 text-[#E5E0E0] lg:text-[15px] text-xs hover:text-blue-600"
-              target="_blank"
             >
               Certificate Verification
             </Link>
             <Link
-              href=""
+              href="/services/training"
               className="mb-0 text-[#E5E0E0] lg:text-[15px] text-xs hover:text-blue-600"
-              target="_blank"
             >
               Training
             </Link>
-            <div className="mb-0 flex gap-1 items-center mt-32">
+            <div className="mb-0 flex gap-1 items-center lg:mt-32 mt-8">
               <div className="text-[#E5E0E0] text-xs lg:text-[15px] ">
                 Socials:
               </div>

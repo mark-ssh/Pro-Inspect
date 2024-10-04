@@ -221,7 +221,7 @@ export default function Training() {
         } `}
       >
         <div className="absolute w-full h-full bg-[#000000b5] flex justify-center">
-          <div className="lg:w-[700px] h-fit bg-white mt-12 mx-6 lg:mx-0">
+          <div className="lg:w-[700px] w-full h-fit bg-white mt-12 mx-12 lg:mx-0">
             <div className="lg:px-10 px-6 py-6 bg-gray-200 text-gray-800 lg:text-lg font-medium">
               Enquiry form
             </div>
@@ -251,7 +251,7 @@ export default function Training() {
                 />
 
                 {/* Dropdown */}
-                <div className="relative inline-block text-left mb-2 mt-1">
+                {/* <div className="relative inline-block text-left mb-2 mt-1">
                   <div>
                     <button
                       type="button"
@@ -312,8 +312,22 @@ export default function Training() {
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
+                <select
+                  name="pets"
+                  id="pet-select"
+                  className="border-b-2 border-t-0 border-r-0 border-l-0 border-gray-500 font-sans ps-0 text-gray-600"
+                >
+                  <option value="">Please choose a training*</option>
+                  <option value="ndt">
+                    Non-Destructive Testing (NDT) Training
+                  </option>
+                  <option value="api">
+                    American Petroleum Institute (API) Training
+                  </option>
+                  <option value="hamster">Piping Engineering Design</option>
+                </select>
                 <FloatingLabel
                   variant="standard"
                   label="Enter Remark"
