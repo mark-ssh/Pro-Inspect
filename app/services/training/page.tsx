@@ -337,7 +337,10 @@ export default function Training() {
               </div>
             </form>
             <div className="flex gap-3 items-center px-10 mb-10">
-              <button className="py-3 px-6 bg-blue-700 hover:bg-blue-800 text-white text-sm">
+              <button
+                className="py-3 px-6 bg-blue-700 hover:bg-blue-800 text-white text-sm"
+                onClick={toggleForm}
+              >
                 Send
               </button>
               <button
